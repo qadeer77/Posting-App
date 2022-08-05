@@ -111,12 +111,13 @@ button {
     background-color: white;
     border-radius: 10px;
     width: 350px;
-    height: 250px;
+    height: 300px;
     display: flex;
     justify-content: center;
     position: relative;
-    top: -210px;
-    /* left: 450px; */
+    top: 150px;
+    left: 450px;
+    display: none;
 }
 
 .attt {
@@ -156,4 +157,32 @@ button {
 #para5 {
     position: relative;
     left: 40px;
+}
+
+.comment1 {
+    width: 250px;
+    height: 30px;
+    position: relative;
+    top: 200px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .section1 {
+        position: relative;
+        top: 120px;
+        left: 0px;
+    }
+
+    .section-2 {
+        position: relative;
+        top: 150px;
+        left: 20px;
+    }
+
 }
