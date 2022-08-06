@@ -9,7 +9,7 @@ function post() {
     var textarea = document.createElement("p");
     var paraText = document.createTextNode(text.value);
     textarea.setAttribute("class", "attt");
-    textarea.appendChild(paraText)
+    textarea.appendChild(paraText);
     div4.appendChild(textarea);
     div3.appendChild(div4);
     div2.appendChild(div3);
