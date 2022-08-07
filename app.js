@@ -3,6 +3,9 @@ var div1 = document.getElementById("div1");
 var div2 = document.getElementById("div2");
 var div3 = document.getElementById("div3");
 var div4 = document.getElementById("div4");
+var para34 = document.getElementById("para3");
+var para35 = document.getElementById("para4");
+var para36 = document.getElementById("para5");
 
 function post() {
     var text = document.getElementById("textarea1");
@@ -48,42 +51,82 @@ function red() {
     var text2 = document.getElementById("textarea1");
     text2.style.color = "white";
     text2.style.backgroundColor = "red";
+    div2.style.backgroundColor = "red";
+    div2.style.color = "white";
+    para34.style.color = "black";
+    para35.style.color = "black";
+    para36.style.color = "black";
 }
 
 function orange() {
     var text2 = document.getElementById("textarea1");
     text2.style.backgroundColor = "orange";
     text2.style.color = "white";
+    div2.style.backgroundColor = "orange";
+    div2.style.color = "white";
+    para34.style.color = "black";
+    para35.style.color = "black";
+    para36.style.color = "black";
 }
 
 function blue() {
     var text2 = document.getElementById("textarea1");
     text2.style.backgroundColor = "blue";
     text2.style.color = "white";
+    div2.style.backgroundColor = "blue";
+    div2.style.color = "white";
+    para34.style.color = "black";
+    para35.style.color = "black";
+    para36.style.color = "black";
 }
 
 function yellow() {
     var text2 = document.getElementById("textarea1");
     text2.style.backgroundColor = "yellow";
     text2.style.color = "black";
+    div2.style.backgroundColor = "yellow";
+    div2.style.color = "black";
 }
 
 function green() {
     var text2 = document.getElementById("textarea1");
     text2.style.backgroundColor = "green";
     text2.style.color = "white";
+    div2.style.backgroundColor = "green";
+    div2.style.color = "white";
+    para34.style.color = "black";
+    para35.style.color = "black";
+    para36.style.color = "black";
 }
 
 function purple() {
     var text2 = document.getElementById("textarea1");
     text2.style.backgroundColor = "darkmagenta";
+    text2.style.color = "white"
+    div2.style.backgroundColor = "darkmagenta";
+    div2.style.color = "white";
+    para34.style.color = "black";
+    para35.style.color = "black";
+    para36.style.color = "black";
 }
 function black() {
     var text2 = document.getElementById("textarea1");
     text2.style.backgroundColor = "black";
+    text2.style.color = "white"
+    div2.style.backgroundColor = "black";
+    div2.style.color = "white";
+    para34.style.color = "black";
+    para35.style.color = "black";
+    para36.style.color = "black";
 }
 
 function darkPurple() {
     var text2 = document.getElementById("textarea1");
     text2.style.backgroundColor = "rgb(88, 11, 165)";
+    text2.style.color = "white"
+    div2.style.backgroundColor = "rgb(88, 11, 165)";
+    div2.style.color = "white";
+    para34.style.color = "black";
+    para35.style.color = "black";
+    para36.style.color = "black";
 }
